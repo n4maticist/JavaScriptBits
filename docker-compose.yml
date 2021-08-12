@@ -1,0 +1,12 @@
+---
+    version: '3'
+    
+    services:
+      javascript:
+        image: node:16
+        working_dir: /javascript
+        volumes:
+          - ./javascript:/javascript
+        entrypoint: ["./run.sh"]
+
+    
