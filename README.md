@@ -1,2 +1,2 @@
 # JavaScriptBits
-Get your python environment running.
+Get your javascript environment running.
