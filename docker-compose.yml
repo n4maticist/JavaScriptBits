@@ -4,9 +4,9 @@
     services:
       javascript:
         image: node:16
-        working_dir: /javascript
+        working_dir: /code
         volumes:
-          - ./javascript:/javascript
+          - ./code:/code
         entrypoint: ["./run.sh"]
 
     
